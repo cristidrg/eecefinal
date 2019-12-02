@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-	ZedBoard zed_board;
+    ZedBoard zed_board;
     Wiimote wiimote;
     GameLogic theGame(&zed_board, &wiimote, 8, 2);
 
