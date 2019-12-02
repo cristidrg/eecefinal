@@ -74,7 +74,7 @@ void GameLogic::play()
         {
             currentState = STATE_GAME_OVER;
         }
-        else if (wiimote->isAPressed && activeLED == startingLED)
+        else if (wiimote->isAPressed() && activeLED == startingLED)
         {
             activeLED = startingLED + 1;
             direction = DIR_UP;
@@ -110,7 +110,7 @@ void GameLogic::game_over()
 
     while (currentState == STATE_GAME_OVER)
     {
-        if (wiimote->isBPressed)
+        if (wiimote->isBPressed())
         {
             currentState = STATE_INIT;
         }
