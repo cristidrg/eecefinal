@@ -1,4 +1,7 @@
 # main Makefile
+executable: main.o Wiimote.o GameLogic.o ZedBoard.o
+	g++ main.o Wiimote.o GameLogic.o ZedBoard.o -o executable
+
 main.o: main.cc Gamelogic.h ZedBoard.h Wiimote.h
 	g++ -c main.cc
 
