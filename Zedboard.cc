@@ -2,7 +2,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <iostream>
-#include "Zedboard.h"
+#include "ZedBoard.h"
 
 const int gpio_led0_offset = 0x12C;  // Offset for LED0
 const int gpio_led1_offset = 0x130;  // Offset for LED1

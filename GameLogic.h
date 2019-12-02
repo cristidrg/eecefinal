@@ -2,7 +2,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <iostream>
-#include "Zedboard.h"
+#include "ZedBoard.h"
 #include "Wiimote.h"
 #ifndef Gamelogic_H
 #define Gamelogic_H

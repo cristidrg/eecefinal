@@ -5,7 +5,7 @@
 #include <sys/mman.h>
 #include <iostream>
 #include <cmath>
-#include "Zedboard.h"
+#include "ZedBoard.h"
 #include "Wiimote.h"
 #include "GameLogic.h"
 

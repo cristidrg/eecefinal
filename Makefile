@@ -5,7 +5,7 @@ executable: main.o Wiimote.o GameLogic.o ZedBoard.o
 main.o: main.cc GameLogic.h ZedBoard.h Wiimote.h
 	g++ -c main.cc
 
-GameLogic.o: GameLogic.cc GameLogic.h Zedboard.h Wiimote.h
+GameLogic.o: GameLogic.cc GameLogic.h ZedBoard.h Wiimote.h
 	g++ -c GameLogic.cc
 
 ZedBoard.o: ZedBoard.cc ZedBoard.h
